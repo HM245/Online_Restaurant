@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+center{
+    background-color:
+}
+center h1{
+    background-color: rgb(255, 102, 0);
+    color: aliceblue;
+    text-shadow: black 3px 1px 3px;
+    margin: 4%;
+    padding: 2%;
+    border-radius: 80px;
+    animation:a 5s infinite;
+}
+@keyframes a {
+    50%{transform: scaleY(200%);}
+}
+#loginbox{
+    align-items: center;
+    color: balck;
+    text-align: center;
+    margin: 20%;
+    margin-block: 4%;
+    padding: 6%;
+    border: 20px white;
+    border-style: double;
+    border-radius: 25px;
+    background-color: darkgray;
+}
+center h2{
+    font-style: italic;
+    font-weight:bolder;
+    font-size: xx-large;
+    text-shadow: black 3px 3px 4px;;
+    margin-inline: 15vw;
+    padding-block: 2vh;
+    border: 10px groove rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: #ffff8cd3;
+}
+form{
+    padding:6%;
+    text-align: left;
+    padding-inline: 11vw;
+}
+label{
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    font-size: larger;
+    color: black;
+}
+input{
+    text-align: left;
+    padding-inline: 6vw;
+    padding-block:2vh;
+}
+center{
+    padding-block: 8vh;
+}
+button{
+    border-radius:5px ;
+    border: 5px double rgb(0, 140, 255);
+}
+button a{
+    text-decoration: none;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+    color: black;
+    border: 2px solid rgb(0, 153, 255);
+    border-radius: 5px;
+    padding-inline: 8vw;
+}

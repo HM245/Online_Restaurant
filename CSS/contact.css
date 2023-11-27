@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blanchedalmond;
+    border: 20px rgb(253, 113, 137);
+    border-style:groove;
+    border-radius: 10px;
+}
+center h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: rgb(12, 70, 121) 3px 2px 3px;
+    color: rgb(228, 5, 183);
+    background-color:whitesmoke;
+    border: 5px black;
+    border-style: outset;
+    border-radius: 10px;
+    animation:b 10s infinite;  
+}
+@keyframes a{
+    /* 100%{transform:matrix3d(1,0, 0, 0, 0, 0.866025, -0.5, 0, 0, 0.5, 0.866025, 0, 0, 0, 0,1);} */
+    10%{transform:scaleY(110%);}
+}
+
+center{
+    margin: 2%;
+    padding-inline: 25vw;
+}
+#contact{
+    background-image: url(images7.jpeg);
+    background-repeat:space;
+    background-size:contain;
+}
+#address{
+    background-image: url(images7.jpeg);
+    background-repeat: space;
+    background-size:contain;
+}
+.text{
+    margin-inline: 30%;
+    margin-block: 3%;
+    padding: 5%;
+    padding-block: 30vh;
+    font-size: x-large;
+    font-style: italic;
+    background-color: rgb(32, 32, 32);
+    color: whitesmoke;
+    border: 10px grey;
+    border-style: groove;
+    border-radius: 15px;
+    text-align: center;
+    animation: a 5s infinite;
+}
+@keyframes b {
+    80%{transform:translate(-50px) ;}
+    60%{transform:translate(50px) ;}
+}
+button{
+    border-radius:5px ;
+    border: 5px double rgb(0, 140, 255);
+}
+button a{
+    text-decoration: none;
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+    color: black;
+    border: 2px solid rgb(0, 153, 255);
+    border-radius: 5px;
+    padding-inline: 8vw;
+}
