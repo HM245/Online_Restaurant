@@ -145,10 +145,10 @@ center{
 }
 .dishes{
     margin: 2%;
-    padding-inline: 8vw;
+    padding-inline: 6vw;
 }
 .dishes img{
-    margin-inline: 8px;
+    margin-inline: 6px;
     margin-block: 10px;
     width: 28%;
     aspect-ratio: 2/1;
